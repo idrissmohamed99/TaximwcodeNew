@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "161750386934",
+    "firebase_url": "https://taximw-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "taximw",
+    "storage_bucket": "taximw.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:161750386934:android:5493dcfbec2892d9e5c4d7",
+        "android_client_info": {
+          "package_name": "com.taximw.taxi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "161750386934-88qo22uofn6u0fpf2d6ceobpnqb4a51u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.taximw.taxi",
+            "certificate_hash": "71dac7b0652eabb4f02a772e7d9c9bfc58df12e1"
+          }
+        },
+        {
+          "client_id": "161750386934-o3n26sp8vrnt63obq7fdup96o33bfsev.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.taximw.taxi",
+            "certificate_hash": "d5c822ff72f85babd636be37247d9a904950ca46"
+          }
+        },
+        {
+          "client_id": "161750386934-as0vh5o4ak1njt97t0bag43cl08t1nph.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChQrsODvzYykEk_3JSogZQSikkS1FhbSQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "161750386934-27h13sme2oj14no3bvs51dj5k956mb2f.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "161750386934-m60bdvsibd5u2kga2joieafacpoamjsp.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.taximw.taxi"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

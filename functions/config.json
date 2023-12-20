@@ -1,0 +1,116 @@
+{
+	"app_name": "Taximw",
+	"app_description": "تطبيق taximw هو تطبيق محمول يهدف إلى تسهيل عملية حجز وتوصيل التاكسي والنقل العام. يتيح التطبيق للمستخدمين طلب سيارة أجرة بسهولة وسرعة عن طريق تحديد موقعهم الحالي ووجهتهم المطلوبة. يتم عرض معلومات السائق المتاح والسيارة المستخدمة، بالإضافة إلى تقدير التكلفة والزمن المتوقع للوصول. كما يُتاح للمستخدمين تقديم تعليقات وتقييمات عن الخدمة بعد انتهاء الرحلة. يعد taximw حلاً مثاليًا لأولئك الذين يبحثون عن طريقة سهلة وآمنة للانتقال من مكان إلى آخر في المدينة.",
+	"app_identifier": "com.taximw.taxi",
+	"ios_app_version": "2.3.5",
+	"android_app_version": "105",
+	"firebaseProjectId": "taximw",
+	"googleApiKeys": {
+		"ios": "AIzaSyCpJ7fSGy7wFIUBsMgCPkv6mWsNmYaQi-4",
+		"android": "AIzaSyChQrsODvzYykEk_3JSogZQSikkS1FhbSQ",
+		"web": "AIzaSyD7CawpD1cbjKOWtib4JVOtEsqyTni1ozw",
+		"server": "AIzaSyD7CawpD1cbjKOWtib4JVOtEsqyTni1ozw"
+	},
+	"expo_owner": "taximw",
+	"expo_slug": "taximwapps",
+	"expo_project_id": "9f370cf6-737c-4c4b-8bc9-99148d9a9ac6",
+	"admin_email": "ahmedhussin666@yahoo.com",
+	"purchase_code": "61f4a5e1-7d08-43af-890b-5eac684d932e",
+	"paymentMethods": {
+		"braintree": {
+			"active": false,
+			"testing": true,
+			"merchantId": "XXXXXXXXXXXXXXX",
+			"publicKey": "XXXXXXXXXXXXXXX",
+			"privateKey": "XXXXXXXXXXXXXXX"
+		},
+		"culqi": {
+			"active": false,
+			"PUBLIC_KEY": "XXXXXXXXXXXXXXX",
+			"SECURE_KEY": "XXXXXXXXXXXXXXX"
+		},
+		"flutterwave": {
+			"active": false,
+			"FLUTTERWAVE_PUBLIC_KEY": "XXXXXXXXXXXXXXX",
+			"FLUTTERWAVE_SECRET_KEY": "XXXXXXXXXXXXXXX"
+		},
+		"liqpay": {
+			"active": false,
+			"public_key": "XXXXXXXXXXXXXXX",
+			"private_key": "XXXXXXXXXXXXXXX"
+		},
+		"mercadopago": {
+			"active": false,
+			"public_key": "XXXXXXXXXXXXXXX",
+			"access_token": "XXXXXXXXXXXXXXX"
+		},
+		"payfast": {
+			"active": false,
+			"testingMode": true,
+			"PAYFAST_MEWRCHANT_ID": "XXXXXXXXXXXXXXX",
+			"PAYFAST_MERCHANT_KEY": "XXXXXXXXXXXXXXX",
+			"passPhrase": null
+		},
+		"paypal": {
+			"active": false,
+			"testing": true,
+			"paypal_client_id": "XXXXXXXXXXXXXXX",
+			"paypal_secret": "XXXXXXXXXXXXXXX"
+		},
+		"paystack": {
+			"active": false,
+			"PAYSTACK_PUBLIC_KEY": "XXXXXXXXXXXXXXX",
+			"PAYSTACK_SECRET_KEY": "XXXXXXXXXXXXXXX"
+		},
+		"paytm": {
+			"active": false,
+			"testing": true,
+			"PAYTM_MEWRCHANT_ID": "XXXXXXXXXXXXXXX",
+			"PAYTM_MERCHANT_KEY": "XXXXXXXXXXXXXXX"
+		},
+		"payulatam": {
+			"active": false,
+			"testing": true,
+			"merchantId": 111111,
+			"apiKey": "XXXXXXXXXXXXXXX",
+			"accountId": 111111
+		},
+		"securepay": {
+			"active": false,
+			"testing": true,
+			"MERCHANT_CODE": "XXXXXXXXXXXXXXX",
+			"TXN_PASSWORD": "XXXXXXXXXXXXXXX"
+		},
+		"stripe": {
+			"active": false,
+			"stripe_private_key": "XXXXXXXXXXXXXXX",
+			"stripe_public_key": "XXXXXXXXXXXXXXX"
+		},
+		"squareup": {
+			"active": false,
+			"testing": true,
+			"APPLICATION_ID": "XXXXXXXXXXXXXXX",
+			"LOCATION_ID": "XXXXXXXXXXXXXXX",
+			"ACCESS_TOKEN": "XXXXXXXXXXXXXXX"
+		},
+		"wipay": {
+			"active": false,
+			"testing": true,
+			"ACCOUNT_NO": "XXXXXXXXXXXXXXX",
+			"API_KEY": "XXXXXXXXXXXXXXX"
+		},
+		"razorpay": {
+			"active": false,
+			"KEY_ID" : "XXXXXXXXXXXXXXX",
+			"KEY_SECRET" :"XXXXXXXXXXXXXXX"
+		},
+		"test": {
+			"active": false
+		},
+		"tylinq": {
+			"active": true,
+			"API_TOKEN" : "yLbbT7pRuIX2NiE3CPFcOh8nhlUllB0pXCIdwzXh",
+			"STORE_ID" :"kNYQB0wakj2JPqEaLDpyNm7Y6vr5KGWzom3OlwnX14eABoQRdxgz08VbMo6vOJ4p"
+		}
+	}
+}
