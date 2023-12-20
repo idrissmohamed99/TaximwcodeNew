@@ -635,15 +635,15 @@ const styles = StyleSheet.create({
     backgroundColor: colors.WHITE,
   },
   floting:{
-    minWidth: 150,
-    height:50,
+    minWidth: 130,
+    height:45,
     position:'absolute',
     bottom:40,
     justifyContent:'center',
     alignItems:'center',
     alignSelf:'center',
     borderRadius:10,
-    backgroundColor:colors.GREEN,
+    backgroundColor:MAIN_COLOR,
     shadowColor: colors.BLACK,
     shadowOffset: {
         width: 0,
