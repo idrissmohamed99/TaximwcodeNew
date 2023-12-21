@@ -6,8 +6,8 @@
 	"android_app_version": "106",
 	"firebaseProjectId": "taximw",
 	"googleApiKeys": {
-		"ios": "AIzaSyD7CawpD1cbjKOWtib4JVOtEsqyTni1ozw",
-		"android": "AIzaSyD7CawpD1cbjKOWtib4JVOtEsqyTni1ozw",
+		"ios": "AIzaSyCpJ7fSGy7wFIUBsMgCPkv6mWsNmYaQi-4",
+		"android": "AIzaSyChQrsODvzYykEk_3JSogZQSikkS1FhbSQ",
 		"web": "AIzaSyD7CawpD1cbjKOWtib4JVOtEsqyTni1ozw",
 		"server": "AIzaSyD7CawpD1cbjKOWtib4JVOtEsqyTni1ozw"
 	},
