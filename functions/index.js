@@ -786,12 +786,13 @@ exports.request_mobile_otp = functions.https.onRequest(async (request, response)
         let smsConfig = smsConfigData.val();
 
         const data = {
-            mobile: mobile,
+            mobile: mobile.replace("+", ""),
             dated: timestamp,
             otp: otp
         };
         let resMsg = await rgf.callMsgApi(config, smsConfig, data);
         console.log(resMsg);
+        data.mobile =mobile;
         await admin.database().ref(`/otp_auth_requests`).push(data);
         response.send({"success" : true})
 
@@ -813,6 +814,7 @@ exports.verify_mobile_otp = functions.https.onRequest(async (request, response) 
     const otp = request.body.otp;
     const mobileList = await admin.database().ref("/otp_auth_requests").orderByChild("mobile").equalTo(mobile).once('value');
     const listData = mobileList.val();
+    console.log(listData);
     if(listData){
         let check = await rgf.otpCheck(config, mobile, listData);
         if(check.errorStr){

@@ -27,6 +27,7 @@ export const bookingHistoryColumns = (role, settings, t, isRTL) => [
   <div
   style={{backgroundColor:rowData.status === "CANCELLED"?colors.RED :rowData.status=== "COMPLETE"?colors.GREEN : colors.YELLOW, color:"white", padding:7, borderRadius:"15px", fontWeight:"bold", width:"150px", margin: 'auto' }}
   >{t(rowData.status)}</div>,  },
+  { title: t('cancellation_reason'), field: 'reason',cellStyle:{textAlign:isRTL=== 'rtl' ?'right':'left'} },
     { title: t('otp'), field: 'otp',
   },
   { title: t('trip_cost'), field: 'trip_cost',

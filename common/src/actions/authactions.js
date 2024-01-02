@@ -621,7 +621,10 @@ export const verifyMobileOtp = (mobile, otp) => async (dispatch) => {
       body: JSON.stringify(body)
     })
     const result = await response.json();
+    console.log(result);
     if(result.token){
+      console.log(result.token);
+
       signInWithCustomToken(auth,result.token)
         .then((user) => {
           //OnAuthStateChange takes care of Navigation

@@ -67,7 +67,7 @@ export default function Header(props) {
   const brandComponent = <Button
     href="/"
     className={classes.title}>
-    {secondLogo ? <img src={require("../../assets/img/logo138x75black.png").default} alt="blackLogo" /> :
+    {secondLogo ? <img src={require("../../assets/img/logo138x75black.svg").default} alt="blackLogo" /> :
       <img src={require("../../assets/img/logo138x75white.png").default} alt="whiteLogo" />
     }
   </Button>;

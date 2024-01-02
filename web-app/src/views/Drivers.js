@@ -145,6 +145,10 @@ export default function Users() {
         settings.AllowCriticalEditsAdmin ? rowData.email : t("hidden_demo"),
       headerStyle: { textAlign: "center" },
     },
+    { title: t('vehicle_reg_no'), field: 'vehicleNumber', editable:'never', initialEditValue: '',cellStyle:{textAlign:isRTL=== 'rtl' ?'right':'center'} },
+    { title: t('wallet_balance'),  field: 'walletBalance', type:'numeric' , editable:'never', initialEditValue: 0,cellStyle:{textAlign:isRTL=== 'rtl' ?'right':'center'}},
+    { title: t('you_rated_text'), render: rowData => <span>{rowData.rating?rowData.rating: "0"}</span>,cellStyle:{textAlign:isRTL=== 'rtl' ?'right':'center'} },
+
     {
       title: t("profile_image"),
       field: "profile_image",
