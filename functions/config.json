@@ -2,12 +2,12 @@
 	"app_name": "Taximw",
 	"app_description": "تطبيق taximw هو تطبيق محمول يهدف إلى تسهيل عملية حجز وتوصيل التاكسي والنقل العام. يتيح التطبيق للمستخدمين طلب سيارة أجرة بسهولة وسرعة عن طريق تحديد موقعهم الحالي ووجهتهم المطلوبة. يتم عرض معلومات السائق المتاح والسيارة المستخدمة، بالإضافة إلى تقدير التكلفة والزمن المتوقع للوصول. كما يُتاح للمستخدمين تقديم تعليقات وتقييمات عن الخدمة بعد انتهاء الرحلة. يعد taximw حلاً مثاليًا لأولئك الذين يبحثون عن طريقة سهلة وآمنة للانتقال من مكان إلى آخر في المدينة.",
 	"app_identifier": "com.taximw.taxi",
-	"ios_app_version": "2.3.7",
-	"android_app_version": "107",
+	"ios_app_version": "2.3.8",
+	"android_app_version": "108",
 	"firebaseProjectId": "taximw",
 	"googleApiKeys": {
-		"ios": "AIzaSyCpJ7fSGy7wFIUBsMgCPkv6mWsNmYaQi-4",
-		"android": "AIzaSyChQrsODvzYykEk_3JSogZQSikkS1FhbSQ",
+		"ios": "AIzaSyCumX3qKKSrkioxYFSvOFESy_ZvWDMH1D8",
+		"android": "AIzaSyCvwgxv36kRYeuUV7LCVIEm6eUdGKNGA3g",
 		"web": "AIzaSyD7CawpD1cbjKOWtib4JVOtEsqyTni1ozw",
 		"server": "AIzaSyD7CawpD1cbjKOWtib4JVOtEsqyTni1ozw"
 	},
