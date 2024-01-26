@@ -16,7 +16,7 @@ export const clearBooking = () => (dispatch) => {
         payload: null,
     });
 }
-
+//
 export const addBooking = (bookingData) => async (dispatch) => {
 
     const   {
